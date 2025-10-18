@@ -1,0 +1,114 @@
+# =======================================
+# 🧩 Django / Python
+# =======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =======================================
+# 🧩 Entornos virtuales
+# =======================================
+venv/
+env/
+.env/
+*.env.local
+.env.*.local
+
+# =======================================
+# 🧩 Archivos de configuración sensibles
+# =======================================
+.env
+*.secret
+*.key
+*.pem
+*.cert
+
+# =======================================
+# 🧩 Archivos de logs, dumps, etc.
+# =======================================
+*.log
+*.pot
+*.mo
+*.sqlite3
+db.sqlite3
+*.db
+*.dump
+
+# =======================================
+# 🧩 Archivos de sistema
+# =======================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =======================================
+# 🧩 Archivos de Django
+# =======================================
+staticfiles/
+media/
+static/
+mediafiles/
+
+# =======================================
+# 🧩 IDEs / Editores
+# =======================================
+.vscode/
+.idea/
+*.swp
+
+# =======================================
+# 🧩 Tests / Coverage
+# =======================================
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+.pytest_cache/
+.tox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# =======================================
+# 🧩 Node / Frontend (Vue, React, etc.)
+# =======================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Archivos de compilación de Vite / Vue CLI
+/dist/
+/build/
+/public/build/
+/public/dist/
+/public/assets/
+/vite.config.js.timestamp-*
+/vite.config.ts.timestamp-*
+/vite.config.mjs.timestamp-*
+/*.tsbuildinfo
+
+# Variables de entorno del frontend
+.frontend.env
+.frontend.env.local
+.frontend.env.development
+.frontend.env.production
+
+# =======================================
+# 🧩 Docker / Contenedores (opcional)
+# =======================================
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
